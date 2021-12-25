@@ -50,7 +50,7 @@ function acak($panjang)
 
 function acakc($panjang)
 {
-    $karakter= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $karakter= '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $string = '';
     for ($i = 0; $i < $panjang; $i++) {
   $pos = rand(0, strlen($karakter)-1);
